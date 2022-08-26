@@ -1,0 +1,18 @@
+wheel
+
+notebook
+ipykernel
+
+black
+wcwidth
+tabulate[widechars]
+
+numpy
+pandas
+# SQLAlchemy
+# oracledb
+pyarrow
+dask
+
+matplotlib
+seaborn
