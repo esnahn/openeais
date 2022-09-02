@@ -1,5 +1,8 @@
+from typing import Mapping
 import pandas as pd
 import dask.dataframe as dd
+from dask.diagnostics import ProgressBar
+
 
 # [건축물대장] 표제부 (2022년 06월)	738.37	2022-07-27
 # 압축 해제 후 mart_djy_03.txt 파일 준비
@@ -286,19 +289,29 @@ floor_dtypes = {
 }
 
 
-if __name__ == "__main__":
-    from dask.diagnostics import ProgressBar
-
+def openeais_to_parquet(
+    file,
+    savedir,
+    dtypes: Mapping,
+    index=None,
+) -> None:
     ddf = dd.read_csv(
-        "국토교통부_건축물대장_층별개요202207.zip",
-        # blocksize=25e6    # Default value is computed based on available physical
-        #                   # memory and the number of cores, up to a maximum of 64MB.
+        file,
         encoding="euc-kr",
         header=None,
         sep="|",
-        names=title_dtypes.keys(),
-        dtype=title_dtypes,
+        names=dtypes.keys(),
+        dtype=dtypes,
     )
     with ProgressBar():
-        ddf = ddf.set_index("관리_건축물대장_PK")
-        ddf.to_parquet("floor")
+        if index:
+            ddf = ddf.set_index(index)
+        ddf.to_parquet(savedir)
+
+
+if __name__ == "__main__":
+    openeais_to_parquet(
+        "mart_djy_04.txt",
+        "floor",
+        floor_dtypes,
+    )
