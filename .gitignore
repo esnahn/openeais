@@ -3,6 +3,7 @@ __pycache__
 
 *.zip
 *.csv
+*.part
 *.parquet
 *.txt
 !requirements.txt
