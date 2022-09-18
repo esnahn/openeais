@@ -314,6 +314,11 @@ def openeais_to_parquet(
     sep = "|"
 
     path = Path(path)
+    savedir = Path(savedir)
+
+    if savedir.exists() and savedir.stat().st_mtime > path.stat().st_mtime:
+        print("already done")
+        return savedir
 
     with TemporaryDirectory() as tdir:  # type: str
         ext = path.suffix
@@ -352,10 +357,26 @@ def openeais_to_parquet(
             print("Saving...")
             ddf.to_parquet(savedir)
 
+    return savedir
+
 
 if __name__ == "__main__":
-    openeais_to_parquet(
-        "mart_djy_04.txt",
-        "floor",
+    zip_patterns = [
+        "국토교통부_건축물대장_기본개요*.zip",
+        "국토교통부_건축물대장_총괄표제부*.zip",
+        "국토교통부_건축물대장_표제부*.zip",
+        "국토교통부_건축물대장_전유부*.zip",
+        "국토교통부_건축물대장_층별개요*.zip",
+    ]
+    dtype_dicts = [
+        bldrgst_dtypes,
+        recap_dtypes,
+        title_dtypes,
+        expos_dtypes,
         floor_dtypes,
-    )
+    ]
+    savedir_names = ["bldrgst", "recap", "title", "expos", "floor"]
+
+    for zpattern, dtype, dirname in zip(zip_patterns, dtype_dicts, savedir_names):
+        zpath = sorted(Path("data/").glob(zpattern), reverse=True)[0]
+        openeais_to_parquet(zpath, Path("data") / dirname, dtype)
