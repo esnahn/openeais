@@ -305,6 +305,48 @@ expos_dtypes = {
     "생성_일자": str,
 }
 
+exposarea_dtypes = {
+    "관리_건축물대장_PK": str,
+    "대장_구분_코드": str,
+    "대장_구분_코드_명": str,
+    "대장_종류_코드": str,
+    "대장_종류_코드_명": str,
+    "대지_위치": str,
+    "도로명_대지_위치": str,
+    "건물_명": str,
+    "시군구_코드": str,
+    "법정동_코드": str,
+    "대지_구분_코드": str,
+    "번": str,
+    "지": str,
+    "특수지_명": str,
+    "블록": str,
+    "로트": str,
+    "새주소_도로_코드": str,
+    "새주소_법정동_코드": str,
+    "새주소_지상지하_코드": str,
+    "새주소_본_번": "Int64",
+    "새주소_부_번": "Int64",
+    "동_명": str,
+    "호_명": str,
+    "층_구분_코드": str,
+    "층_구분_코드_명": str,
+    "층_번호": "Int64",
+    "전유_공용_구분_코드": str,
+    "전유_공용_구분_코드_명": str,
+    "주_부속_구분_코드": str,
+    "주_부속_구분_코드_명": str,
+    "층_번호_명": str,
+    "구조_코드": str,
+    "구조_코드_명": str,
+    "기타_구조": str,
+    "주_용도_코드": str,
+    "주_용도_코드_명": str,
+    "기타_용도": str,
+    "면적(㎡)": float,
+    "생성_일자": str,
+}
+
 
 def openeais_to_parquet(
     path, savedir, dtypes: Mapping, index="관리_건축물대장_PK", **kwargs
@@ -319,6 +361,9 @@ def openeais_to_parquet(
     if savedir.exists() and savedir.stat().st_mtime > path.stat().st_mtime:
         print("already done")
         return savedir
+    else:
+        for file in savedir.iterdir():
+            file.unlink()
 
     with TemporaryDirectory() as tdir:  # type: str
         ext = path.suffix
@@ -352,6 +397,17 @@ def openeais_to_parquet(
 
         with ProgressBar():
             if index:
+                print("replacing NA...")
+                if dtypes[index] in ["string", str]:
+                    replace_value = ""
+                elif dtypes[index] in ["Int64", "int64", int]:
+                    replace_value = 0
+                elif dtypes[index] in ["float64", float]:
+                    replace_value = 0.0
+                else:
+                    raise NotImplementedError(ddf[index].dtype)
+                ddf = ddf.fillna({index: replace_value})
+
                 print("Setting index...")
                 ddf = ddf.set_index(index)
             print("Saving...")
@@ -367,15 +423,24 @@ if __name__ == "__main__":
         "국토교통부_건축물대장_표제부*.zip",
         "국토교통부_건축물대장_전유부*.zip",
         "국토교통부_건축물대장_층별개요*.zip",
+        "국토교통부_건축물대장_전유공용면적*.zip",
     ]
     dtype_dicts = [
         bldrgst_dtypes,
         recap_dtypes,
         title_dtypes,
-        expos_dtypes,
         floor_dtypes,
+        expos_dtypes,
+        exposarea_dtypes,
     ]
-    savedir_names = ["bldrgst", "recap", "title", "expos", "floor"]
+    savedir_names = [
+        "bldrgst",
+        "recap",
+        "title",
+        "floor",
+        "expos",
+        "exposarea",
+    ]
 
     for zpattern, dtype, dirname in zip(zip_patterns, dtype_dicts, savedir_names):
         zpath = sorted(Path("data/").glob(zpattern), reverse=True)[0]
