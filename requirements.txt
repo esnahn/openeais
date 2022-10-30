@@ -15,5 +15,5 @@ pandas
 pyarrow
 dask
 
-matplotlib
+matplotlib>=3.6
 seaborn
