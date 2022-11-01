@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="285.2075pt" height="285.2075pt" viewBox="0 0 285.2075 285.2075" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-11-01T17:36:46.630506</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.6.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 285.2075 
+L 285.2075 285.2075 
+L 285.2075 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 61.4475 223.76 
+L 278.0075 223.76 
+L 278.0075 7.2 
+L 61.4475 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p2b5293590b)">
+    <image xlink:href="data:image/png;base64,
+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" id="image99fedb1db9" transform="scale(1 -1) translate(0 -216.96)" x="61.4475" y="-6.8" width="216.96" height="216.96"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m25d6c616ce" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.2"/>
+      </defs>
+      <g>
+       <use xlink:href="#m25d6c616ce" x="74.9825" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 음식 -->
+      <g transform="translate(77.19 244.7125) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-c74c" d="M 787 3750 
+Q 787 4256 1296 4569 
+Q 1805 4883 2784 4883 
+Q 3763 4883 4268 4566 
+Q 4774 4250 4774 3750 
+Q 4774 3238 4272 2940 
+Q 3770 2643 2784 2643 
+Q 1805 2643 1296 2940 
+Q 787 3238 787 3750 
+z
+M 4230 3750 
+Q 4230 4109 3830 4301 
+Q 3430 4493 2784 4493 
+Q 2125 4493 1728 4304 
+Q 1331 4115 1331 3750 
+Q 1331 3386 1721 3213 
+Q 2112 3040 2784 3040 
+Q 3437 3040 3833 3213 
+Q 4230 3386 4230 3750 
+z
+M 5376 1792 
+L 179 1792 
+L 179 2221 
+L 5376 2221 
+L 5376 1792 
+z
+M 1376 -352 
+L 4166 -352 
+L 4166 755 
+L 1376 755 
+L 1376 -352 
+z
+M 1011 1171 
+L 4544 1171 
+Q 4621 1171 4649 1142 
+Q 4678 1114 4678 1037 
+L 4678 -634 
+Q 4678 -710 4649 -739 
+Q 4621 -768 4544 -768 
+L 1011 -768 
+Q 934 -768 905 -739 
+Q 877 -710 877 -634 
+L 877 1037 
+Q 877 1114 905 1142 
+Q 934 1171 1011 1171 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c2dd" d="M 141 1958 
+Q 813 2272 1245 2768 
+Q 1677 3264 1677 4000 
+L 1677 4698 
+L 2208 4698 
+L 2208 4000 
+Q 2208 3661 2323 3376 
+Q 2438 3091 2643 2861 
+Q 2842 2624 3114 2448 
+Q 3386 2272 3693 2163 
+L 3366 1773 
+Q 2925 1984 2537 2288 
+Q 2150 2592 1939 3021 
+Q 1786 2579 1408 2224 
+Q 1030 1869 544 1619 
+L 141 1958 
+z
+M 4928 4838 
+L 4928 1453 
+L 4429 1453 
+L 4429 4838 
+L 4928 4838 
+z
+M 4787 1146 
+Q 4864 1146 4893 1117 
+Q 4922 1088 4922 1011 
+L 4922 -870 
+L 4410 -870 
+L 4410 710 
+L 1158 710 
+L 1158 1146 
+L 4787 1146 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-c74c"/>
+       <use xlink:href="#KoPubDotumMedium-c2dd" x="87.199982"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="102.0525" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 소매 -->
+      <g transform="translate(104.26 244.7125) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-c18c" d="M 3046 4141 
+Q 3046 3750 3238 3395 
+Q 3430 3040 3731 2746 
+Q 4032 2458 4406 2243 
+Q 4781 2029 5139 1926 
+L 4787 1542 
+Q 4480 1658 4176 1827 
+Q 3872 1997 3603 2214 
+Q 3334 2438 3120 2697 
+Q 2906 2957 2784 3258 
+Q 2509 2656 1968 2221 
+Q 1427 1786 774 1536 
+L 397 1926 
+Q 781 2042 1158 2256 
+Q 1536 2470 1830 2752 
+Q 2131 3040 2316 3392 
+Q 2502 3744 2502 4141 
+L 2502 4608 
+L 3046 4608 
+L 3046 4141 
+z
+M 5382 -115 
+L 173 -115 
+L 173 320 
+L 2515 320 
+L 2515 1747 
+L 3034 1747 
+L 3034 320 
+L 5382 320 
+L 5382 -115 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-b9e4" d="M 1094 1056 
+L 2157 1056 
+L 2157 4038 
+L 1094 4038 
+L 1094 1056 
+z
+M 742 4467 
+L 2502 4467 
+Q 2579 4467 2608 4438 
+Q 2637 4410 2637 4333 
+L 2637 755 
+Q 2637 678 2608 649 
+Q 2579 621 2502 621 
+L 742 621 
+Q 666 621 637 649 
+Q 608 678 608 755 
+L 608 4333 
+Q 608 4410 637 4438 
+Q 666 4467 742 4467 
+z
+M 3750 4742 
+L 3750 2899 
+L 4493 2899 
+L 4493 4838 
+L 4986 4838 
+L 4986 -838 
+L 4493 -838 
+L 4493 2413 
+L 3750 2413 
+L 3750 -563 
+L 3264 -563 
+L 3264 4742 
+L 3750 4742 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-c18c"/>
+       <use xlink:href="#KoPubDotumMedium-b9e4" x="87.199982"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="129.1225" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 부동산 -->
+      <g transform="translate(131.33 251.68875) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-bd80" d="M 1370 2643 
+L 4173 2643 
+L 4173 3571 
+L 1370 3571 
+L 1370 2643 
+z
+M 870 2349 
+L 870 4717 
+L 1370 4717 
+L 1370 3987 
+L 4173 3987 
+L 4173 4717 
+L 4678 4717 
+L 4678 2349 
+Q 4678 2272 4649 2243 
+Q 4621 2214 4544 2214 
+L 1005 2214 
+Q 928 2214 899 2243 
+Q 870 2272 870 2349 
+z
+M 5376 1062 
+L 3053 1062 
+L 3053 -832 
+L 2541 -832 
+L 2541 1062 
+L 179 1062 
+L 179 1498 
+L 5376 1498 
+L 5376 1062 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-b3d9" d="M 1011 4672 
+L 4691 4672 
+L 4691 4256 
+L 1382 4256 
+L 1382 3270 
+L 4749 3270 
+L 4749 2848 
+L 3034 2848 
+L 3034 2080 
+L 5376 2080 
+L 5376 1645 
+L 179 1645 
+L 179 2080 
+L 2515 2080 
+L 2515 2848 
+L 1011 2848 
+Q 928 2848 902 2873 
+Q 877 2899 877 2976 
+L 877 4538 
+Q 877 4614 905 4643 
+Q 934 4672 1011 4672 
+z
+M 742 154 
+Q 742 627 1267 937 
+Q 1792 1248 2778 1248 
+Q 3757 1248 4285 937 
+Q 4813 627 4813 154 
+Q 4813 -326 4288 -633 
+Q 3763 -941 2778 -941 
+Q 1792 -941 1267 -633 
+Q 742 -326 742 154 
+z
+M 1299 160 
+Q 1299 -186 1702 -368 
+Q 2106 -550 2778 -550 
+Q 3424 -550 3840 -368 
+Q 4256 -186 4256 160 
+Q 4256 486 3840 672 
+Q 3424 858 2778 858 
+Q 2106 858 1702 675 
+Q 1299 493 1299 160 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c0b0" d="M 3232 1690 
+Q 3053 1773 2851 1904 
+Q 2650 2035 2458 2202 
+Q 2266 2374 2096 2576 
+Q 1926 2778 1824 3008 
+Q 1734 2758 1580 2540 
+Q 1427 2323 1235 2131 
+Q 1043 1946 828 1792 
+Q 614 1638 403 1523 
+L 13 1875 
+Q 326 2022 604 2230 
+Q 883 2438 1094 2701 
+Q 1306 2963 1427 3286 
+Q 1549 3610 1549 3994 
+L 1549 4698 
+L 2080 4698 
+L 2080 4038 
+Q 2080 3680 2201 3369 
+Q 2323 3059 2534 2810 
+Q 2739 2560 3008 2374 
+Q 3277 2189 3565 2086 
+L 3232 1690 
+z
+M 4672 4838 
+L 4672 3149 
+L 5453 3149 
+L 5453 2701 
+L 4672 2701 
+L 4672 678 
+L 4173 678 
+L 4173 4838 
+L 4672 4838 
+z
+M 1120 1094 
+L 1626 1094 
+L 1626 -282 
+L 4851 -282 
+L 4851 -717 
+L 1254 -717 
+Q 1178 -717 1149 -688 
+Q 1120 -659 1120 -582 
+L 1120 1094 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-bd80"/>
+       <use xlink:href="#KoPubDotumMedium-b3d9" x="87.199982"/>
+       <use xlink:href="#KoPubDotumMedium-c0b0" x="174.399963"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="156.1925" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 생활서비스 -->
+      <g transform="translate(158.4 265.64125) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-c0dd" d="M 2720 1837 
+Q 2355 2061 2070 2349 
+Q 1786 2637 1619 3046 
+Q 1466 2598 1181 2259 
+Q 896 1920 518 1651 
+L 102 1990 
+Q 768 2406 1056 2912 
+Q 1344 3418 1344 4147 
+L 1344 4672 
+L 1869 4672 
+L 1869 4141 
+Q 1869 3450 2176 2963 
+Q 2483 2477 3053 2202 
+L 2720 1837 
+z
+M 3808 4742 
+L 3808 3462 
+L 4506 3462 
+L 4506 4838 
+L 4992 4838 
+L 4992 1389 
+L 4506 1389 
+L 4506 3008 
+L 3808 3008 
+L 3808 1587 
+L 3315 1587 
+L 3315 4742 
+L 3808 4742 
+z
+M 1062 218 
+Q 1062 742 1600 1056 
+Q 2138 1370 3059 1370 
+Q 3981 1370 4512 1053 
+Q 5043 736 5043 218 
+Q 5043 -307 4521 -620 
+Q 4000 -934 3059 -934 
+Q 2138 -934 1600 -627 
+Q 1062 -320 1062 218 
+z
+M 1606 218 
+Q 1606 32 1718 -109 
+Q 1830 -250 2022 -346 
+Q 2221 -442 2486 -490 
+Q 2752 -538 3059 -538 
+Q 3674 -538 4083 -342 
+Q 4493 -147 4493 211 
+Q 4493 576 4083 771 
+Q 3674 966 3059 966 
+Q 2746 966 2480 918 
+Q 2214 870 2022 774 
+Q 1824 678 1715 537 
+Q 1606 397 1606 218 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-d65c" d="M 538 4288 
+L 3661 4288 
+L 3661 3930 
+L 538 3930 
+L 538 4288 
+z
+M 1312 4890 
+L 2893 4890 
+L 2893 4538 
+L 1312 4538 
+L 1312 4890 
+z
+M 2093 3738 
+Q 2688 3738 3059 3542 
+Q 3430 3347 3430 3034 
+Q 3430 2765 3132 2585 
+Q 2835 2406 2368 2368 
+L 2368 1978 
+Q 2528 1978 2755 1990 
+Q 2982 2003 3219 2022 
+Q 3456 2042 3677 2064 
+Q 3898 2086 4058 2112 
+L 4058 1754 
+Q 3648 1690 3049 1645 
+Q 2451 1600 1818 1600 
+L 282 1600 
+L 282 1965 
+L 1837 1965 
+L 1837 2368 
+Q 1357 2406 1056 2582 
+Q 755 2758 755 3027 
+Q 755 3341 1126 3539 
+Q 1498 3738 2093 3738 
+z
+M 2093 3398 
+Q 1709 3398 1488 3296 
+Q 1267 3194 1267 3021 
+Q 1267 2867 1488 2768 
+Q 1709 2669 2093 2669 
+Q 2470 2669 2691 2768 
+Q 2912 2867 2912 3021 
+Q 2912 3194 2691 3296 
+Q 2470 3398 2093 3398 
+z
+M 4774 4838 
+L 4774 3450 
+L 5568 3450 
+L 5568 3014 
+L 4774 3014 
+L 4774 1491 
+L 4282 1491 
+L 4282 4838 
+L 4774 4838 
+z
+M 4646 1216 
+Q 4723 1216 4752 1187 
+Q 4781 1158 4781 1082 
+L 4781 192 
+Q 4781 115 4752 86 
+Q 4723 58 4646 58 
+L 1702 58 
+L 1702 -403 
+L 4922 -403 
+L 4922 -781 
+L 1299 -781 
+Q 1222 -781 1193 -752 
+Q 1165 -723 1165 -646 
+L 1165 282 
+Q 1165 358 1193 387 
+Q 1222 416 1299 416 
+L 4243 416 
+L 4243 832 
+L 1165 832 
+L 1165 1216 
+L 4646 1216 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c11c" d="M 3174 3142 
+L 4416 3142 
+L 4416 4838 
+L 4928 4838 
+L 4928 -832 
+L 4416 -832 
+L 4416 2688 
+L 3174 2688 
+L 3174 3142 
+z
+M 2195 3501 
+Q 2195 3059 2291 2678 
+Q 2387 2298 2573 1984 
+Q 2771 1626 3075 1334 
+Q 3379 1043 3757 819 
+Q 3661 742 3552 633 
+Q 3443 525 3379 454 
+Q 3174 589 2969 765 
+Q 2765 941 2592 1152 
+Q 2394 1382 2227 1651 
+Q 2061 1920 1946 2234 
+Q 1869 1952 1715 1677 
+Q 1562 1402 1370 1152 
+Q 1171 890 947 672 
+Q 723 454 512 314 
+Q 435 384 307 483 
+Q 179 582 70 653 
+Q 454 890 758 1206 
+Q 1062 1523 1274 1901 
+Q 1472 2266 1574 2691 
+Q 1677 3117 1677 3590 
+L 1677 4621 
+L 2195 4621 
+L 2195 3501 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-be44" d="M 1152 1011 
+L 2758 1011 
+L 2758 2650 
+L 1152 2650 
+L 1152 1011 
+z
+M 646 704 
+L 646 4563 
+L 1152 4563 
+L 1152 3098 
+L 2758 3098 
+L 2758 4563 
+L 3251 4563 
+L 3251 704 
+Q 3251 627 3222 598 
+Q 3194 570 3117 570 
+L 781 570 
+Q 704 570 675 598 
+Q 646 627 646 704 
+z
+M 4883 4838 
+L 4883 -832 
+L 4384 -832 
+L 4384 4838 
+L 4883 4838 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c2a4" d="M 3053 4128 
+Q 3053 3763 3229 3414 
+Q 3405 3066 3699 2765 
+Q 3994 2470 4371 2243 
+Q 4749 2016 5152 1894 
+L 4794 1517 
+Q 4512 1613 4208 1782 
+Q 3904 1952 3629 2182 
+Q 3354 2406 3130 2678 
+Q 2906 2950 2790 3258 
+Q 2662 2957 2444 2688 
+Q 2227 2419 1952 2195 
+Q 1677 1971 1373 1795 
+Q 1069 1619 781 1510 
+L 397 1901 
+Q 781 2016 1161 2230 
+Q 1542 2445 1837 2733 
+Q 2138 3021 2323 3376 
+Q 2509 3731 2509 4128 
+L 2509 4614 
+L 3053 4614 
+L 3053 4128 
+z
+M 5382 -51 
+L 173 -51 
+L 173 384 
+L 5382 384 
+L 5382 -51 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-c0dd"/>
+       <use xlink:href="#KoPubDotumMedium-d65c" x="87.199982"/>
+       <use xlink:href="#KoPubDotumMedium-c11c" x="174.399963"/>
+       <use xlink:href="#KoPubDotumMedium-be44" x="261.599945"/>
+       <use xlink:href="#KoPubDotumMedium-c2a4" x="348.799927"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="183.2625" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 학문/교육 -->
+      <g transform="translate(185.47 261.36) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-d559" d="M 390 4077 
+L 3642 4077 
+L 3642 3674 
+L 390 3674 
+L 390 4077 
+z
+M 2842 4442 
+L 1158 4442 
+L 1158 4851 
+L 2842 4851 
+L 2842 4442 
+z
+M 2010 3366 
+Q 2637 3366 3027 3094 
+Q 3418 2822 3418 2394 
+Q 3418 2176 3309 1997 
+Q 3200 1818 3014 1683 
+Q 2829 1555 2569 1481 
+Q 2310 1408 2010 1408 
+Q 1702 1408 1443 1481 
+Q 1184 1555 998 1683 
+Q 813 1818 707 1997 
+Q 602 2176 602 2394 
+Q 602 2822 992 3094 
+Q 1382 3366 2010 3366 
+z
+M 2010 2982 
+Q 1587 2982 1353 2819 
+Q 1120 2656 1120 2394 
+Q 1120 2131 1353 1961 
+Q 1587 1792 2010 1792 
+Q 2426 1792 2662 1961 
+Q 2899 2131 2899 2394 
+Q 2899 2656 2662 2819 
+Q 2426 2982 2010 2982 
+z
+M 5568 2784 
+L 4781 2784 
+L 4781 1216 
+L 4282 1216 
+L 4282 4838 
+L 4781 4838 
+L 4781 3226 
+L 5568 3226 
+L 5568 2784 
+z
+M 4646 909 
+Q 4723 909 4752 880 
+Q 4781 851 4781 774 
+L 4781 -864 
+L 4269 -864 
+L 4269 467 
+L 1069 467 
+L 1069 909 
+L 4646 909 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-bb38" d="M 4205 3098 
+L 4205 4250 
+L 1344 4250 
+L 1344 3098 
+L 4205 3098 
+z
+M 3123 237 
+L 2630 237 
+L 2630 1536 
+L 179 1536 
+L 179 1965 
+L 5376 1965 
+L 5376 1536 
+L 3123 1536 
+L 3123 237 
+z
+M 4550 2669 
+L 998 2669 
+Q 922 2669 893 2697 
+Q 864 2726 864 2803 
+L 864 4538 
+Q 864 4614 893 4643 
+Q 922 4672 998 4672 
+L 4550 4672 
+Q 4627 4672 4656 4643 
+Q 4685 4614 4685 4538 
+L 4685 2803 
+Q 4685 2726 4656 2697 
+Q 4627 2669 4550 2669 
+z
+M 1011 -717 
+Q 934 -717 905 -688 
+Q 877 -659 877 -582 
+L 877 966 
+L 1363 966 
+L 1363 -282 
+L 4883 -282 
+L 4883 -717 
+L 1011 -717 
+z
+" transform="scale(0.015625)"/>
+        <path id="DejaVuSans-2f" d="M 1625 4666 
+L 2156 4666 
+L 531 -594 
+L 0 -594 
+L 1625 4666 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-ad50" d="M 4653 4506 
+Q 4730 4506 4758 4477 
+Q 4787 4448 4787 4371 
+Q 4762 3994 4726 3581 
+Q 4691 3168 4646 2746 
+Q 4595 2323 4534 1913 
+Q 4474 1504 4410 1139 
+L 3891 1146 
+Q 4026 1837 4128 2617 
+Q 4230 3398 4256 4070 
+L 781 4070 
+L 781 4506 
+L 4653 4506 
+z
+M 173 314 
+L 1459 314 
+L 1459 2451 
+L 1952 2451 
+L 1952 314 
+L 2810 314 
+L 2810 2451 
+L 3309 2451 
+L 3309 314 
+L 5382 314 
+L 5382 -128 
+L 173 -128 
+L 173 314 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c721" d="M 787 3725 
+Q 787 4230 1296 4550 
+Q 1805 4870 2784 4870 
+Q 3763 4870 4268 4547 
+Q 4774 4224 4774 3725 
+Q 4774 3213 4272 2902 
+Q 3770 2592 2784 2592 
+Q 1805 2592 1296 2902 
+Q 787 3213 787 3725 
+z
+M 4230 3725 
+Q 4230 4083 3830 4278 
+Q 3430 4474 2784 4474 
+Q 2125 4474 1728 4282 
+Q 1331 4090 1331 3725 
+Q 1331 3360 1721 3177 
+Q 2112 2995 2784 2995 
+Q 3437 2995 3833 3177 
+Q 4230 3360 4230 3725 
+z
+M 179 2163 
+L 5376 2163 
+L 5376 1734 
+L 3974 1734 
+L 3974 909 
+L 4544 909 
+Q 4621 909 4649 880 
+Q 4678 851 4678 774 
+L 4678 -883 
+L 4166 -883 
+L 4166 474 
+L 800 474 
+L 800 909 
+L 1574 909 
+L 1574 1734 
+L 179 1734 
+L 179 2163 
+z
+M 3482 909 
+L 3482 1734 
+L 2074 1734 
+L 2074 909 
+L 3482 909 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-d559"/>
+       <use xlink:href="#KoPubDotumMedium-bb38" x="87.199982"/>
+       <use xlink:href="#DejaVuSans-2f" x="174.399963"/>
+       <use xlink:href="#KoPubDotumMedium-ad50" x="208.09137"/>
+       <use xlink:href="#KoPubDotumMedium-c721" x="295.291351"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="210.3325" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 관광/여가/오락 -->
+      <g transform="translate(212.54 278.0075) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-ad00" d="M 3302 4608 
+Q 3379 4608 3408 4579 
+Q 3437 4550 3437 4474 
+Q 3424 4211 3398 3939 
+Q 3373 3667 3341 3411 
+Q 3309 3149 3273 2921 
+Q 3238 2694 3200 2522 
+L 2701 2522 
+Q 2733 2675 2765 2883 
+Q 2797 3091 2822 3315 
+Q 2854 3533 2873 3757 
+Q 2893 3981 2912 4166 
+L 595 4166 
+L 595 4608 
+L 3302 4608 
+z
+M 4237 550 
+L 4237 4838 
+L 4736 4838 
+L 4736 3014 
+L 5517 3014 
+L 5517 2566 
+L 4736 2566 
+L 4736 550 
+L 4237 550 
+z
+M 1920 3290 
+L 1920 1939 
+Q 2099 1939 2374 1952 
+Q 2650 1965 2944 1990 
+Q 3245 2010 3533 2042 
+Q 3821 2074 4032 2112 
+L 4032 1683 
+Q 3622 1619 2825 1558 
+Q 2029 1498 934 1498 
+L 237 1498 
+L 237 1939 
+L 1434 1939 
+L 1434 3290 
+L 1920 3290 
+z
+M 1299 -717 
+Q 1222 -717 1193 -688 
+Q 1165 -659 1165 -582 
+L 1165 973 
+L 1670 973 
+L 1670 -282 
+L 4922 -282 
+L 4922 -717 
+L 1299 -717 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-ad11" d="M 3302 4608 
+Q 3379 4608 3408 4579 
+Q 3437 4550 3437 4474 
+Q 3411 3987 3350 3513 
+Q 3290 3040 3206 2694 
+L 2714 2694 
+Q 2739 2835 2771 3020 
+Q 2803 3206 2829 3411 
+Q 2854 3610 2873 3808 
+Q 2893 4006 2906 4173 
+L 595 4173 
+L 595 4608 
+L 3302 4608 
+z
+M 4237 1331 
+L 4237 4838 
+L 4736 4838 
+L 4736 3373 
+L 5517 3373 
+L 5517 2938 
+L 4736 2938 
+L 4736 1331 
+L 4237 1331 
+z
+M 1920 3386 
+L 1920 2163 
+Q 2099 2163 2371 2176 
+Q 2643 2189 2944 2214 
+Q 3238 2240 3526 2269 
+Q 3814 2298 4026 2336 
+L 4026 1926 
+Q 3622 1862 2867 1792 
+Q 2112 1722 1171 1722 
+L 230 1722 
+L 230 2157 
+L 1434 2157 
+L 1434 3386 
+L 1920 3386 
+z
+M 973 166 
+Q 973 621 1469 937 
+Q 1965 1254 2918 1254 
+Q 3866 1254 4374 937 
+Q 4883 621 4883 160 
+Q 4883 -301 4374 -617 
+Q 3866 -934 2925 -934 
+Q 1971 -934 1472 -614 
+Q 973 -294 973 166 
+z
+M 1504 160 
+Q 1504 6 1609 -122 
+Q 1715 -250 1907 -339 
+Q 2093 -435 2355 -483 
+Q 2618 -531 2925 -531 
+Q 3539 -531 3942 -342 
+Q 4346 -154 4346 160 
+Q 4346 480 3942 669 
+Q 3539 858 2925 858 
+Q 2618 858 2358 806 
+Q 2099 755 1907 666 
+Q 1715 576 1609 448 
+Q 1504 320 1504 160 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c5ec" d="M 480 2547 
+Q 480 3104 589 3513 
+Q 698 3923 883 4186 
+Q 1075 4448 1331 4576 
+Q 1587 4704 1888 4704 
+Q 2272 4704 2592 4467 
+Q 2912 4230 3098 3750 
+L 4397 3750 
+L 4397 4838 
+L 4902 4838 
+L 4902 -845 
+L 4397 -845 
+L 4397 1382 
+L 3110 1382 
+Q 2931 883 2604 636 
+Q 2278 390 1888 390 
+Q 1594 390 1338 518 
+Q 1082 646 890 915 
+Q 698 1184 589 1590 
+Q 480 1997 480 2547 
+z
+M 3219 3315 
+Q 3251 3142 3270 2950 
+Q 3290 2758 3290 2547 
+Q 3290 2342 3274 2163 
+Q 3258 1984 3232 1824 
+L 4397 1824 
+L 4397 3315 
+L 3219 3315 
+z
+M 979 2547 
+Q 979 2202 1033 1891 
+Q 1088 1581 1197 1350 
+Q 1312 1114 1481 979 
+Q 1651 845 1888 845 
+Q 2118 845 2284 979 
+Q 2451 1114 2566 1350 
+Q 2675 1581 2729 1891 
+Q 2784 2202 2784 2547 
+Q 2784 2886 2729 3193 
+Q 2675 3501 2566 3738 
+Q 2458 3968 2288 4109 
+Q 2118 4250 1888 4250 
+Q 1651 4250 1478 4109 
+Q 1306 3968 1197 3731 
+Q 1082 3494 1030 3187 
+Q 979 2880 979 2547 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-ac00" d="M 595 4512 
+L 2970 4512 
+Q 3046 4512 3081 4483 
+Q 3117 4454 3117 4378 
+Q 3085 3712 2899 3117 
+Q 2714 2522 2394 2010 
+Q 2080 1498 1641 1075 
+Q 1203 653 678 346 
+L 269 698 
+Q 1254 1216 1859 2077 
+Q 2464 2938 2547 4070 
+L 595 4070 
+L 595 4512 
+z
+M 5498 2099 
+L 4659 2099 
+L 4659 -838 
+L 4147 -838 
+L 4147 4838 
+L 4659 4838 
+L 4659 2560 
+L 5498 2560 
+L 5498 2099 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-c624" d="M 2790 2016 
+Q 3085 2016 3347 2093 
+Q 3610 2170 3808 2317 
+Q 4000 2464 4115 2672 
+Q 4230 2880 4230 3149 
+Q 4230 3693 3827 3990 
+Q 3424 4288 2790 4288 
+Q 2144 4288 1744 3990 
+Q 1344 3693 1344 3149 
+Q 1344 2880 1453 2672 
+Q 1562 2464 1754 2317 
+Q 1946 2170 2211 2093 
+Q 2477 2016 2790 2016 
+z
+M 2509 1600 
+Q 1741 1664 1277 2077 
+Q 813 2490 813 3149 
+Q 813 3488 950 3776 
+Q 1088 4064 1344 4269 
+Q 1600 4480 1968 4598 
+Q 2336 4717 2790 4717 
+Q 3238 4717 3603 4598 
+Q 3968 4480 4224 4269 
+Q 4480 4064 4621 3776 
+Q 4762 3488 4762 3149 
+Q 4762 2816 4634 2544 
+Q 4506 2272 4282 2067 
+Q 4051 1869 3734 1744 
+Q 3418 1619 3034 1594 
+L 3034 320 
+L 5382 320 
+L 5382 -122 
+L 173 -122 
+L 173 320 
+L 2509 320 
+L 2509 1600 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-b77d" d="M 672 3366 
+L 2605 3366 
+L 2605 4198 
+L 538 4198 
+L 538 4627 
+L 2963 4627 
+Q 3040 4627 3069 4598 
+Q 3098 4570 3098 4493 
+L 3098 3085 
+Q 3098 3008 3069 2979 
+Q 3040 2950 2963 2950 
+L 1030 2950 
+L 1030 2080 
+L 1510 2080 
+Q 1856 2080 2214 2096 
+Q 2573 2112 2899 2144 
+Q 3226 2170 3494 2205 
+Q 3763 2240 3936 2278 
+L 3936 1850 
+Q 3750 1811 3465 1772 
+Q 3181 1734 2842 1702 
+Q 2502 1677 2124 1657 
+Q 1747 1638 1376 1638 
+L 672 1638 
+Q 595 1638 566 1667 
+Q 538 1696 538 1773 
+L 538 3232 
+Q 538 3309 566 3337 
+Q 595 3366 672 3366 
+z
+M 5491 3040 
+L 4717 3040 
+L 4717 1325 
+L 4218 1325 
+L 4218 4838 
+L 4717 4838 
+L 4717 3482 
+L 5491 3482 
+L 5491 3040 
+z
+M 4582 1037 
+Q 4659 1037 4688 1008 
+Q 4717 979 4717 902 
+L 4717 -870 
+L 4205 -870 
+L 4205 602 
+L 1011 602 
+L 1011 1037 
+L 4582 1037 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-ad00"/>
+       <use xlink:href="#KoPubDotumMedium-ad11" x="87.199982"/>
+       <use xlink:href="#DejaVuSans-2f" x="174.399963"/>
+       <use xlink:href="#KoPubDotumMedium-c5ec" x="208.09137"/>
+       <use xlink:href="#KoPubDotumMedium-ac00" x="295.291351"/>
+       <use xlink:href="#DejaVuSans-2f" x="382.491333"/>
+       <use xlink:href="#KoPubDotumMedium-c624" x="416.182739"/>
+       <use xlink:href="#KoPubDotumMedium-b77d" x="503.382721"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="237.4025" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 숙박 -->
+      <g transform="translate(239.61 244.7125) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-c219" d="M 4774 2637 
+Q 4493 2701 4198 2819 
+Q 3904 2938 3635 3104 
+Q 3366 3264 3142 3469 
+Q 2918 3674 2784 3917 
+Q 2643 3674 2428 3469 
+Q 2214 3264 1946 3104 
+Q 1683 2944 1385 2825 
+Q 1088 2707 781 2637 
+L 448 3014 
+Q 838 3098 1209 3245 
+Q 1581 3392 1869 3597 
+Q 2157 3795 2329 4051 
+Q 2502 4307 2502 4614 
+L 2502 4832 
+L 3059 4832 
+L 3059 4614 
+Q 3059 4288 3254 4025 
+Q 3450 3763 3750 3558 
+Q 4051 3360 4409 3222 
+Q 4768 3085 5101 3014 
+L 4774 2637 
+z
+M 5376 1760 
+L 3027 1760 
+L 3027 979 
+L 4550 979 
+Q 4627 979 4656 950 
+Q 4685 922 4685 845 
+L 4685 -870 
+L 4166 -870 
+L 4166 550 
+L 806 550 
+L 806 979 
+L 2502 979 
+L 2502 1760 
+L 179 1760 
+L 179 2189 
+L 5376 2189 
+L 5376 1760 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-bc15" d="M 1018 2298 
+L 2605 2298 
+L 2605 3258 
+L 1018 3258 
+L 1018 2298 
+z
+M 525 1997 
+L 525 4646 
+L 1018 4646 
+L 1018 3693 
+L 2605 3693 
+L 2605 4646 
+L 3098 4646 
+L 3098 1997 
+Q 3098 1920 3069 1891 
+Q 3040 1862 2963 1862 
+L 659 1862 
+Q 582 1862 553 1891 
+Q 525 1920 525 1997 
+z
+M 5491 3136 
+L 4710 3136 
+L 4710 1453 
+L 4211 1453 
+L 4211 4845 
+L 4710 4845 
+L 4710 3584 
+L 5491 3584 
+L 5491 3136 
+z
+M 1005 1146 
+L 4582 1146 
+Q 4659 1146 4688 1117 
+Q 4717 1088 4717 1011 
+L 4717 -870 
+L 4211 -870 
+L 4211 698 
+L 1005 698 
+L 1005 1146 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-c219"/>
+       <use xlink:href="#KoPubDotumMedium-bc15" x="87.199982"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m25d6c616ce" x="264.4725" y="223.76" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 스포츠 -->
+      <g transform="translate(266.68 251.68875) rotate(-90) scale(0.08 -0.08)">
+       <defs>
+        <path id="KoPubDotumMedium-d3ec" d="M 3648 4102 
+L 1901 4102 
+Q 1901 3853 1904 3606 
+Q 1907 3360 1914 3117 
+Q 1914 2867 1917 2620 
+Q 1920 2374 1926 2131 
+L 3622 2131 
+Q 3622 2374 3625 2620 
+Q 3629 2867 3635 3117 
+Q 3635 3360 3638 3606 
+Q 3642 3853 3648 4102 
+z
+M 4922 1702 
+L 3034 1702 
+L 3034 314 
+L 5382 314 
+L 5382 -115 
+L 173 -115 
+L 173 314 
+L 2522 314 
+L 2522 1702 
+L 627 1702 
+L 627 2131 
+L 1421 2131 
+Q 1414 2374 1411 2620 
+Q 1408 2867 1408 3117 
+Q 1402 3360 1398 3606 
+Q 1395 3853 1395 4102 
+L 762 4102 
+L 762 4531 
+L 4781 4531 
+L 4781 4102 
+L 4147 4102 
+Q 4141 3603 4131 3110 
+Q 4122 2618 4115 2131 
+L 4922 2131 
+L 4922 1702 
+z
+" transform="scale(0.015625)"/>
+        <path id="KoPubDotumMedium-ce20" d="M 3840 4243 
+L 1696 4243 
+L 1696 4685 
+L 3840 4685 
+L 3840 4243 
+z
+M 435 1632 
+Q 768 1702 1110 1836 
+Q 1453 1971 1741 2163 
+Q 2029 2355 2227 2608 
+Q 2426 2861 2477 3181 
+L 762 3181 
+L 762 3629 
+L 4794 3629 
+L 4794 3181 
+L 3072 3181 
+Q 3110 2848 3321 2589 
+Q 3533 2330 3834 2138 
+Q 4128 1946 4470 1818 
+Q 4813 1690 5114 1632 
+L 4742 1216 
+Q 4499 1267 4220 1376 
+Q 3942 1485 3674 1651 
+Q 3398 1811 3161 2035 
+Q 2925 2259 2778 2547 
+Q 2637 2291 2416 2076 
+Q 2195 1862 1933 1696 
+Q 1670 1523 1376 1401 
+Q 1082 1280 806 1216 
+L 435 1632 
+z
+M 173 365 
+L 5382 365 
+L 5382 -70 
+L 173 -70 
+L 173 365 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#KoPubDotumMedium-c2a4"/>
+       <use xlink:href="#KoPubDotumMedium-d3ec" x="87.199982"/>
+       <use xlink:href="#KoPubDotumMedium-ce20" x="174.399963"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path id="mc0f58d90c0" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.2"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="20.735" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 음식 -->
+      <g transform="translate(40.495 23.774375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-c74c"/>
+       <use xlink:href="#KoPubDotumMedium-c2dd" x="87.199982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="47.805" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 소매 -->
+      <g transform="translate(40.495 50.844375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-c18c"/>
+       <use xlink:href="#KoPubDotumMedium-b9e4" x="87.199982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="74.875" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 부동산 -->
+      <g transform="translate(33.51875 77.914375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-bd80"/>
+       <use xlink:href="#KoPubDotumMedium-b3d9" x="87.199982"/>
+       <use xlink:href="#KoPubDotumMedium-c0b0" x="174.399963"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="101.945" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 생활서비스 -->
+      <g transform="translate(19.56625 104.984375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-c0dd"/>
+       <use xlink:href="#KoPubDotumMedium-d65c" x="87.199982"/>
+       <use xlink:href="#KoPubDotumMedium-c11c" x="174.399963"/>
+       <use xlink:href="#KoPubDotumMedium-be44" x="261.599945"/>
+       <use xlink:href="#KoPubDotumMedium-c2a4" x="348.799927"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="129.015" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 학문/교육 -->
+      <g transform="translate(23.8475 132.054375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-d559"/>
+       <use xlink:href="#KoPubDotumMedium-bb38" x="87.199982"/>
+       <use xlink:href="#DejaVuSans-2f" x="174.399963"/>
+       <use xlink:href="#KoPubDotumMedium-ad50" x="208.09137"/>
+       <use xlink:href="#KoPubDotumMedium-c721" x="295.291351"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="156.085" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 관광/여가/오락 -->
+      <g transform="translate(7.2 159.124375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-ad00"/>
+       <use xlink:href="#KoPubDotumMedium-ad11" x="87.199982"/>
+       <use xlink:href="#DejaVuSans-2f" x="174.399963"/>
+       <use xlink:href="#KoPubDotumMedium-c5ec" x="208.09137"/>
+       <use xlink:href="#KoPubDotumMedium-ac00" x="295.291351"/>
+       <use xlink:href="#DejaVuSans-2f" x="382.491333"/>
+       <use xlink:href="#KoPubDotumMedium-c624" x="416.182739"/>
+       <use xlink:href="#KoPubDotumMedium-b77d" x="503.382721"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="183.155" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 숙박 -->
+      <g transform="translate(40.495 186.194375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-c219"/>
+       <use xlink:href="#KoPubDotumMedium-bc15" x="87.199982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mc0f58d90c0" x="61.4475" y="210.225" style="stroke: #000000; stroke-width: 0.2"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 스포츠 -->
+      <g transform="translate(33.51875 213.264375) scale(0.08 -0.08)">
+       <use xlink:href="#KoPubDotumMedium-c2a4"/>
+       <use xlink:href="#KoPubDotumMedium-d3ec" x="87.199982"/>
+       <use xlink:href="#KoPubDotumMedium-ce20" x="174.399963"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 61.4475 223.76 
+L 61.4475 7.2 
+" style="fill: none; stroke: #000000; stroke-width: 0.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 278.0075 223.76 
+L 278.0075 7.2 
+" style="fill: none; stroke: #000000; stroke-width: 0.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 61.4475 223.76 
+L 278.0075 223.76 
+" style="fill: none; stroke: #000000; stroke-width: 0.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 61.4475 7.2 
+L 278.0075 7.2 
+" style="fill: none; stroke: #000000; stroke-width: 0.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2b5293590b">
+   <rect x="61.4475" y="7.2" width="216.56" height="216.56"/>
+  </clipPath>
+ </defs>
+</svg>
