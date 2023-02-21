@@ -361,7 +361,7 @@ def openeais_to_parquet(
     if savedir.exists() and savedir.stat().st_mtime > path.stat().st_mtime:
         print("already done")
         return savedir
-    else:
+    elif savedir.exists():
         for file in savedir.iterdir():
             file.unlink()
 
