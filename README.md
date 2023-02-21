@@ -1,3 +1,7 @@
+install python and git (I recommend using https://scoop.sh)
+
+install VS code (or another editor)
+
 run below in powershell
 
 ```powershell
