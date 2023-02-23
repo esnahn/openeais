@@ -18,3 +18,20 @@ pip install -r .\requirements.txt
 ```
 
 restart vs code
+
+---
+
+run `openeais.py` to process eais data.
+the processed data will be placed in `./data`.
+
+
+run `bjdong.py` to process bjdong code data.
+the processed data will be placed in `./data`.
+
+---
+
+check out `data.ipynb` for process text file manually.
+
+check out `data_zip.ipynb` to process text file(s) in a zip file.
+
+check out `boilerplace.ipynb` for general data analysis code.
