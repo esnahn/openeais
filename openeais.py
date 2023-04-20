@@ -1,12 +1,14 @@
+import re
+import zipfile
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import Mapping
-import zipfile
-import pandas as pd
+
 import dask.dataframe as dd
+import pandas as pd
+import polars as pl
 from dask.diagnostics import ProgressBar
 from tqdm import tqdm
-
 
 # Oracle Data Types
 # https://docs.oracle.com/cd/B28359_01/server.111/b28318/datatype.htm
@@ -414,6 +416,22 @@ def openeais_to_parquet(
             ddf.to_parquet(savedir)
 
     return savedir
+
+
+def get_polars_type(dtype_openeais: str):
+    split_characters = r"[(,)]"
+
+    substrings = re.split(split_characters, dtype_openeais)
+
+    if substrings[0] in ["VARCHAR", "CHAR"]:
+        return pl.Utf8
+    elif substrings[0] in ["NUMERIC"]:
+        if "," in dtype_openeais:
+            return pl.Float64
+        else:
+            return pl.Int64
+    else:
+        raise
 
 
 if __name__ == "__main__":
