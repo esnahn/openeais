@@ -15,7 +15,7 @@ def openeais_to_parquet(
     zip_path,
     savedir="data",
     schema_dir="data/schema",
-    index=0,
+    # index=0,  # retrofit not to set index, for now
     **kwargs,
 ) -> Path:
     zip_path = Path(zip_path)
