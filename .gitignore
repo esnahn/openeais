@@ -8,6 +8,7 @@ __pycache__
 *.parquet
 *.txt
 !requirements.txt
+!data/schema/schema_*.csv
 
 *.url
 *.pptx

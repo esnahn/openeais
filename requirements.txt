@@ -15,5 +15,12 @@ pandas
 pyarrow
 dask
 
+polars
+
+# excel handling
+xlsx2csv
+openpyxl
+xlrd  # xls
+
 matplotlib>=3.6
 seaborn
