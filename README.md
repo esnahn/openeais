@@ -21,11 +21,11 @@ restart vs code
 
 ---
 
-run `openeais.py` to process eais data.
+run `build_parquet.py` to process eais data.
 the processed data will be placed in `./data`.
 
 
-run `bjdong.py` to process bjdong code data.
+run `build_bjdong.py` to process bjdong code data.
 the processed data will be placed in `./data`.
 
 ---
