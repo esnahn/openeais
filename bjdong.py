@@ -2,7 +2,7 @@ import pandas as pd
 from tabulate import tabulate
 
 df = pd.read_csv(
-    "data/법정동코드 전체자료.txt",
+    "data/법정동코드 전체자료.txt",  # from https://www.code.go.kr/stdcode/regCodeL.do
     encoding="euc-kr",
     sep="\t",
     index_col=0,
@@ -18,7 +18,8 @@ df_sgg = df_sgg.rename(columns={"법정동명": "시군구명"})
 print(tabulate(df_sgg.head(), headers="keys"))
 df_sgg.to_csv("data/code_sgg.csv", encoding="utf-8-sig")
 
-df_sido = df.loc[df.index.str.endswith("00000000")]
+# assume that sido doesn't have space in the name
+df_sido = df.loc[~df.법정동명.str.contains(" ")]
 df_sido.index = df_sido.index.str[:2]
 df_sido.index.name = "시도코드"
 df_sido = df_sido.rename(columns={"법정동명": "시도명"})
