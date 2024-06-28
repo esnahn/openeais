@@ -3,7 +3,8 @@ wheel
 notebook
 ipykernel
 
-black
+# black  # replaced by ruff
+ruff
 wcwidth
 tabulate[widechars]
 tqdm
