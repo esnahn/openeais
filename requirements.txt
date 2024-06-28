@@ -16,7 +16,9 @@ pandas
 pyarrow
 dask
 
-polars
+polars[pandas,numpy,pyarrow,xlsx2csv,plot,style,timezone]
+# didn't include all: fsspec,connectorx,deltalake
+
 
 # excel handling
 xlsx2csv
