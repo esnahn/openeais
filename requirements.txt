@@ -19,6 +19,9 @@ dask
 polars[pandas,numpy,pyarrow,xlsx2csv,plot,style,timezone]
 # didn't include all: fsspec,connectorx,deltalake
 
+### stat and ml
+scikit-learn
+statsmodels
 
 # excel handling
 xlsx2csv
