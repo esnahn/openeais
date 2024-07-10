@@ -15,6 +15,10 @@ grid.linewidth: 0.2
 lines.linewidth: 0.3
 lines.markeredgewidth: 0.2
 
+lines.marker: o
+lines.markersize: 3
+scatter.marker: o
+
 patch.linewidth: 0.2
 
 hatch.linewidth: 0.2
