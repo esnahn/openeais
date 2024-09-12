@@ -12,11 +12,15 @@ ytick.major.width: 0.2
 ytick.minor.width: 0.12
 grid.linewidth: 0.2
 
-lines.linewidth: 0.3
-lines.markeredgewidth: 0.2
+lines.linewidth: 0.5
+#lines.linestyle: -                 # solid line
 
-lines.marker: o
-lines.markersize: 3
+lines.marker: None                  # the default marker
+#lines.markerfacecolor: auto        # the default marker face color
+#lines.markeredgecolor: auto        # the default marker edge color
+lines.markeredgewidth: 0.2          # the line width around the marker symbol
+lines.markersize: 3                 # marker size, in points
+
 scatter.marker: o
 
 patch.linewidth: 0.2
